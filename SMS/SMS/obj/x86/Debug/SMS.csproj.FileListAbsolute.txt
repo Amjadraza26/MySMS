@@ -51,3 +51,6 @@ D:\SMS\SMS\SMS\obj\x86\Debug\SMS.ManageDues.resources
 D:\SMS\SMS\SMS\obj\x86\Debug\SMS.DuesStructure.resources
 D:\SMS\SMS\SMS\obj\x86\Debug\SMS.PrintAdmissionFeeChallan.resources
 D:\SMS\SMS\SMS\obj\x86\Debug\SMS.SubmittAdmissionChallan.resources
+D:\GitHub\MySMS\SMS\SMS\bin\Debug\SMS.exe.config
+D:\GitHub\MySMS\SMS\SMS\obj\x86\Debug\SMS.exe
+D:\GitHub\MySMS\SMS\SMS\obj\x86\Debug\SMS.pdb
