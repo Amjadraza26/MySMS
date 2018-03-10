@@ -1,0 +1,4 @@
+D:\SMS\SMS\BusinessEntities\bin\Release\BusinessEntities.dll
+D:\SMS\SMS\BusinessEntities\bin\Release\BusinessEntities.pdb
+D:\SMS\SMS\BusinessEntities\obj\Release\BusinessEntities.dll
+D:\SMS\SMS\BusinessEntities\obj\Release\BusinessEntities.pdb

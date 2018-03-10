@@ -1,0 +1,4 @@
+D:\SMS\SMS\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\SMS\SMS\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\SMS\SMS\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\SMS\SMS\BusinessEntities\obj\Debug\BusinessEntities.pdb

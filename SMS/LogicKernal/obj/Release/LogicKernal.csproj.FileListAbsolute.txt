@@ -1,0 +1,9 @@
+D:\SMS\SMS\LogicKernal\bin\Release\LogicKernal.dll
+D:\SMS\SMS\LogicKernal\bin\Release\LogicKernal.pdb
+D:\SMS\SMS\LogicKernal\bin\Release\BusinessEntities.dll
+D:\SMS\SMS\LogicKernal\bin\Release\DataKernal.dll
+D:\SMS\SMS\LogicKernal\bin\Release\BusinessEntities.pdb
+D:\SMS\SMS\LogicKernal\bin\Release\DataKernal.pdb
+D:\SMS\SMS\LogicKernal\obj\Release\LogicKernal.csprojResolveAssemblyReference.cache
+D:\SMS\SMS\LogicKernal\obj\Release\LogicKernal.dll
+D:\SMS\SMS\LogicKernal\obj\Release\LogicKernal.pdb

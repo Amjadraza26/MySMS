@@ -1,0 +1,4 @@
+D:\SMS\SMS\DataKernal\bin\Debug\DataKernal.dll
+D:\SMS\SMS\DataKernal\bin\Debug\DataKernal.pdb
+D:\SMS\SMS\DataKernal\obj\Debug\DataKernal.dll
+D:\SMS\SMS\DataKernal\obj\Debug\DataKernal.pdb

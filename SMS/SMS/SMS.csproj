@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5D79FE7D-E6EC-4131-BA31-84E9F777DC17}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SMS</RootNamespace>
+    <AssemblyName>SMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SMS.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AnalysisServices.AdomdClient, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2015.2.728.40\Telerik.WinControls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.ChartView, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.PivotGrid, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Aqua, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Breeze, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Desert, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Office2010Blue, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Office2013Light, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetro, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.VisualStudio2012Light, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Windows7, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Windows8, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2015.2.728.40\Telerik.WinControls.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TelerikCommon, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\lib\RCWF\2015.2.728.40\TelerikCommon.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TelerikData, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassStudents.Designer.cs">
+      <DependentUpon>ClassStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashBoard.Designer.cs">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubmittAdmissionChallan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmittAdmissionChallan.Designer.cs">
+      <DependentUpon>SubmittAdmissionChallan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ClassStudents.resx">
+      <DependentUpon>ClassStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashBoard.resx">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="DuesStructure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DuesStructure.Designer.cs">
+      <DependentUpon>DuesStructure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageClasses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageClasses.Designer.cs">
+      <DependentUpon>ManageClasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageClassStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageClassStudents.Designer.cs">
+      <DependentUpon>ManageClassStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageClassTeachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageClassTeachers.Designer.cs">
+      <DependentUpon>ManageClassTeachers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageDues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageDues.Designer.cs">
+      <DependentUpon>ManageDues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageSections.Designer.cs">
+      <DependentUpon>ManageSections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageStudents.Designer.cs">
+      <DependentUpon>ManageStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSubjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageSubjects.Designer.cs">
+      <DependentUpon>ManageSubjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageTeachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageTeachers.Designer.cs">
+      <DependentUpon>ManageTeachers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintAdmissionFeeChallan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintAdmissionFeeChallan.Designer.cs">
+      <DependentUpon>PrintAdmissionFeeChallan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DuesStructure.resx">
+      <DependentUpon>DuesStructure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageClasses.resx">
+      <DependentUpon>ManageClasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageClassStudents.resx">
+      <DependentUpon>ManageClassStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageClassTeachers.resx">
+      <DependentUpon>ManageClassTeachers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageDues.resx">
+      <DependentUpon>ManageDues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageSections.resx">
+      <DependentUpon>ManageSections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageStudents.resx">
+      <DependentUpon>ManageStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageSubjects.resx">
+      <DependentUpon>ManageSubjects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageTeachers.resx">
+      <DependentUpon>ManageTeachers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintAdmissionFeeChallan.resx">
+      <DependentUpon>PrintAdmissionFeeChallan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmittAdmissionChallan.resx">
+      <DependentUpon>SubmittAdmissionChallan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--sirinie -->
+    <ProjectReference Include="..\BusinessEntities\BusinessEntities.csproj">
+      <Project>{074a9b0c-8c66-4a14-9ab1-0d66616f840a}</Project>
+      <Name>BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogicKernal\LogicKernal.csproj">
+      <Project>{f339fd36-cb7a-48ab-81ad-425d515bbd55}</Project>
+      <Name>LogicKernal</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\background.jpg" />
+    <Content Include="Images\blnce.png" />
+    <Content Include="Images\Class.png" />
+    <Content Include="Images\ClassStudents.png" />
+    <Content Include="Images\dashBoard.png" />
+    <Content Include="Images\Delete.png" />
+    <Content Include="Images\Due.png" />
+    <Content Include="Images\Dues.png" />
+    <Content Include="Images\Login.jpg" />
+    <Content Include="Images\Marks.png" />
+    <Content Include="Images\New.png" />
+    <Content Include="Images\print-icon.png" />
+    <Content Include="Images\PrintPreview.png" />
+    <Content Include="Images\Section.png" />
+    <Content Include="Images\Students.png" />
+    <Content Include="Images\Subjets.png" />
+    <None Include="Images\Submitt.png" />
+    <Content Include="Images\Submit.png" />
+    <Content Include="Images\Teacher.png" />
+    <Content Include="Images\user.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Actions-print-preview-icon.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
